@@ -8,8 +8,9 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(49, 42, 42);
-    height: 90px;
-    font-size: 20px;
+    height: 70px;
+    font-size: 18px;
+    
 
 }
 
@@ -17,7 +18,7 @@
 .navicon .sec1 :link,
 :visited {
 
-    padding: 14px 25px;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -35,7 +36,7 @@
 .navicon .sec2 :link,
 :visited {
 
-    padding: 14px 25px;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -52,7 +53,15 @@
 
 header div {
     margin: 10px;
-    padding: 20px;
+    padding-top: 15px;
+
+
+}
+
+header .sec2 div {
+    margin: 10px;
+    padding: 18px;
+
 
 }
 
@@ -61,9 +70,9 @@ header a {
 }
 
 .banar {
-    height: 550px;
+    height: 600px;
     background-size: cover;
-    background-position: center 50%;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(https://khamsat.hsoubcdn.com/assets/images/hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg);
     display: flex;
@@ -128,7 +137,7 @@ header a {
     height: 200;
     width: 340;
     margin: 50px;
- 
+
 
 
 
@@ -143,15 +152,17 @@ header a {
     justify-content: center;
     align-items: center;
 }
+
 .sec4 a {
     text-decoration: none;
     color: rgb(156, 24, 24)
+
 }
 
 
 .pic1 {
     background-image: url(img/bigstock-Vector-Creative-Illustration-256954996.jpg);
-    
+
     height: 200px;
     width: 340px;
     background-repeat: no-repeat;
@@ -203,9 +214,10 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.sec5 a{
+
+.sec5 a {
     text-decoration: none;
     color: rgb(156, 24, 24)
 }
@@ -438,4 +450,59 @@ header a {
     margin-top: 10px;
     width: 35px;
     height: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer1 {
+    height: 50px;
+    background-color: rgb(233, 229, 229);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer1 div {
+    padding: 15px;
+    direction: ltr;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.footer2 {
+
+    align-items: center;
+
+}
+
+.footer-dt {}
+
+.hasob-logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* .footer-dt div {
+    display: inline-flex;
+    padding-right: 35px;
+    
+
+} */
+
+.footer-dt a {
+    margin: 20px;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #111;
+
+}
+
+.footer-dt1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 130px;
 }
